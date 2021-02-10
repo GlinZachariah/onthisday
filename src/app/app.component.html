@@ -1,0 +1,12 @@
+
+
+<div tabindex="0" (keyup)="onKeyDown($event)" #elm id="window">
+   
+
+<mat-card class="header">
+     On this day , {{currentDate |date:'d MMMM'}}
+</mat-card>
+
+<mat-card class="content" [innerHTML]="eventData">
+</mat-card>
+</div>
